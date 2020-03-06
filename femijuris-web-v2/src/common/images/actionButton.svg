@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="40" viewBox="0 0 100 40">
-    <g fill="none" fill-rule="evenodd">
-        <path stroke="#BE9A69" d="M.5.5h99v39H.5z"/>
-        <text fill="#A17B4A" font-family="Montserrat-Medium, Montserrat" font-size="12" font-weight="400" letter-spacing="1">
-            <tspan x="19" y="25">ASSINAR</tspan>
-        </text>
-    </g>
-</svg>
