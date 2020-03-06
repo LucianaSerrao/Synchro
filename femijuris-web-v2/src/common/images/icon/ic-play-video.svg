@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-play-video</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-633.000000, -1675.000000)" fill="#EAE3DD" fill-rule="nonzero">
+            <g id="ic-play-video" transform="translate(633.000000, 1675.000000)">
+                <path d="M50,3.75 C75.5025,3.75 96.25,24.4975 96.25,50 C96.25,75.5025 75.5025,96.25 50,96.25 C24.4975,96.25 3.75,75.5025 3.75,50 C3.75,24.4975 24.4975,3.75 50,3.75 Z M50,0 C22.38625,0 0,22.38625 0,50 C0,77.615 22.38625,100 50,100 C77.615,100 100,77.615 100,50 C100,22.38625 77.615,0 50,0 Z" id="Shape"></path>
+                <path d="M43.75,65.8396875 L67.5,52.1259375 C68.27375,51.6796875 68.75,50.8546875 68.75,49.9621875 C68.75,49.0696875 68.27375,48.2446875 67.5,47.7984375 L43.75,34.0846875 C42.97625,33.6384375 42.02375,33.6384375 41.25,34.0846875 C40.47625,34.5309375 40,35.3571875 40,36.2496875 L40,63.6734375 C40,64.5671875 40.47625,65.3921875 41.25,65.8384375 C42.02375,66.2846875 42.97625,66.2871875 43.75,65.8396875 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

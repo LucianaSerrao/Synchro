@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="15px" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-bussola</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Diretório---desktop" transform="translate(-5310.000000, -274.000000)" fill="#55585A" fill-rule="nonzero">
+            <g id="Group-8" transform="translate(4138.000000, 10.000000)">
+                <g transform="translate(-56.000000, -31.000000)" id="Group-3">
+                    <g transform="translate(874.000000, 283.000000)">
+                        <path d="M367.478462,12 C367.380757,12.000745 367.285432,12.0295157 367.204338,12.0827351 L354.290611,20.1664378 C354.066306,20.2669453 353.951106,20.5126087 354.019729,20.7440905 C354.088352,20.9755722 354.320131,21.1231581 354.564735,21.0911238 L360.749966,20.9159201 C360.971994,20.903873 361.175334,21.0369047 361.248373,21.2419936 L363.271906,26.5370379 C363.285669,26.8058221 363.519971,27.0128201 363.795234,26.9993809 C364.070496,26.9859417 364.282483,26.7571544 364.26872,26.4883702 L367.976869,12.6618805 C368.025912,12.5102026 367.995954,12.3446945 367.896637,12.2186212 C367.797321,12.0925478 367.641178,12.0218203 367.478462,12.0292006 L367.478462,12 Z" id="ic-bussola"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
