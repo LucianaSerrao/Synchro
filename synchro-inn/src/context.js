@@ -20,6 +20,7 @@ export default class RoomProvider extends Component {
     maxSize: 0,
     breakfast: false,
     pets: false
+    
   };
 
   // getData = async () => {

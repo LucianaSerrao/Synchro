@@ -2,10 +2,14 @@ import React from "react";
 import { useContext } from "react";
 import { RoomContext } from "../context";
 import Title from "./Title";
+import { DatePicker } from 'antd';
 // get all unique values
 const getUnique = (items, value) => {
   return [...new Set(items.map(item => item[value]))];
 };
+function onChange(date, dateString) {
+  console.log(date, dateString);
+}
 
 const RoomsFilter = ({ rooms }) => {
   // react hooks
@@ -86,6 +90,7 @@ const RoomsFilter = ({ rooms }) => {
             className="form-control"
           />
         </div>
+        
         {/* end of room price*/}
         {/* size */}
         {/* <div className="form-group">

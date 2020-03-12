@@ -13,7 +13,7 @@ const home = () => {
           subtitle="quartos a partir de R$ 200"
         >
           <Link to="/rooms" className="btn-primary">
-            nossos quartos
+            reserve já
           </Link>
         </Banner>
       </Hero>

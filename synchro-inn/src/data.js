@@ -23,7 +23,7 @@ export default [
     fields: {
       name: "solteiro econômico",
       slug: "single-economy",
-      type: "single",
+      type: "solteiro",
       price: 100,
       size: 200,
       capacity: 1,
@@ -31,15 +31,15 @@ export default [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Street art, edison bulb, gluten-free tofu.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
+        "Almofadas macias e roupas de cama delicadas.",
+        "Toalhas de banho grandes e macias",
+        "Toalete de tamanho normal e com pH equilibrado",
+        "Refrescos de cortesia",
+        "Segurança / proteção adequadas",
         "Internet",
-        "Comfortable beds"
+        "Camas confortáveis"
       ],
       images: [
         {
@@ -80,7 +80,7 @@ export default [
     fields: {
       name: "solteiro básico",
       slug: "single-basic",
-      type: "single",
+      type: "solteiro",
       price: 150,
       size: 250,
       capacity: 1,
@@ -88,15 +88,15 @@ export default [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "Street art, edison bulb, gluten-free tofu.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
+        "Almofadas macias e roupas de cama delicadas.",
+        "Toalhas de banho grandes e macias",
+        "Toalete de tamanho normal e com pH equilibrado",
+        "Refrescos de cortesia",
+        "Segurança / proteção adequadas",
         "Internet",
-        "Comfortable beds"
+        "Camas confortáveis"
       ],
       images: [
         {
@@ -137,7 +137,7 @@ export default [
     fields: {
       name: "solteiro padrão",
       slug: "single-standard",
-      type: "single",
+      type: "solteiro",
       price: 250,
       size: 300,
       capacity: 1,
@@ -145,15 +145,15 @@ export default [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "Street art, edison bulb, gluten-free tofu.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
+        "Almofadas macias e roupas de cama delicadas.",
+        "Toalhas de banho grandes e macias",
+        "Toalete de tamanho normal e com pH equilibrado",
+        "Refrescos de cortesia",
+        "Segurança / proteção adequadas",
         "Internet",
-        "Comfortable beds"
+        "Camas confortáveis"
       ],
       images: [
         {
@@ -194,7 +194,7 @@ export default [
     fields: {
       name: "solteiro deluxe",
       slug: "single-deluxe",
-      type: "single",
+      type: "solteiro",
       price: 300,
       size: 400,
       capacity: 1,
@@ -202,15 +202,15 @@ export default [
       breakfast: true,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "Street art, edison bulb, gluten-free tofu.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
+        "Almofadas macias e roupas de cama delicadas.",
+        "Toalhas de banho grandes e macias",
+        "Toalete de tamanho normal e com pH equilibrado",
+        "Refrescos de cortesia",
+        "Segurança / proteção adequadas",
         "Internet",
-        "Comfortable beds"
+        "Camas confortáveis"
       ],
       images: [
         {
@@ -251,7 +251,7 @@ export default [
     fields: {
       name: "casal econômico",
       slug: "double-economy",
-      type: "double",
+      type: "casal",
       price: 200,
       size: 300,
       capacity: 2,
@@ -259,15 +259,15 @@ export default [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "Street art, edison bulb, gluten-free tofu.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
+        "Almofadas macias e roupas de cama delicadas.",
+        "Toalhas de banho grandes e macias",
+        "Toalete de tamanho normal e com pH equilibrado",
+        "Refrescos de cortesia",
+        "Segurança / proteção adequadas",
         "Internet",
-        "Comfortable beds"
+        "Camas confortáveis"
       ],
       images: [
         {
@@ -308,7 +308,7 @@ export default [
     fields: {
       name: "casal basico",
       slug: "double-basic",
-      type: "double",
+      type: "casal",
       price: 250,
       size: 350,
       capacity: 2,
@@ -316,15 +316,15 @@ export default [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "Street art, edison bulb, gluten-free tofu.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
+        "Almofadas macias e roupas de cama delicadas.",
+        "Toalhas de banho grandes e macias",
+        "Toalete de tamanho normal e com pH equilibrado",
+        "Refrescos de cortesia",
+        "Segurança / proteção adequadas",
         "Internet",
-        "Comfortable beds"
+        "Camas confortáveis"
       ],
       images: [
         {
@@ -365,7 +365,7 @@ export default [
     fields: {
       name: "casal padrão",
       slug: "double-standard",
-      type: "double",
+      type: "casal",
       price: 300,
       size: 400,
       capacity: 2,
@@ -373,15 +373,15 @@ export default [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "Street art, edison bulb, gluten-free tofu.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
+        "Almofadas macias e roupas de cama delicadas.",
+        "Toalhas de banho grandes e macias",
+        "Toalete de tamanho normal e com pH equilibrado",
+        "Refrescos de cortesia",
+        "Segurança / proteção adequadas",
         "Internet",
-        "Comfortable beds"
+        "Camas confortáveis"
       ],
       images: [
         {
@@ -422,7 +422,7 @@ export default [
     fields: {
       name: "casal deluxe",
       slug: "double-deluxe",
-      type: "double",
+      type: "casal",
       price: 400,
       size: 500,
       capacity: 2,
@@ -430,15 +430,15 @@ export default [
       breakfast: true,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "Street art, edison bulb, gluten-free tofu.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
+        "Almofadas macias e roupas de cama delicadas.",
+        "Toalhas de banho grandes e macias",
+        "Toalete de tamanho normal e com pH equilibrado",
+        "Refrescos de cortesia",
+        "Segurança / proteção adequadas",
         "Internet",
-        "Comfortable beds"
+        "Camas confortáveis"
       ],
       images: [
         {
@@ -479,7 +479,7 @@ export default [
     fields: {
       name: "familia economico",
       slug: "family-economy",
-      type: "family",
+      type: "familia",
       price: 300,
       size: 500,
       capacity: 3,
@@ -487,15 +487,15 @@ export default [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "Street art, edison bulb, gluten-free tofu.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
+        "Almofadas macias e roupas de cama delicadas.",
+        "Toalhas de banho grandes e macias",
+        "Toalete de tamanho normal e com pH equilibrado",
+        "Refrescos de cortesia",
+        "Segurança / proteção adequadas",
         "Internet",
-        "Comfortable beds"
+        "Camas confortáveis"
       ],
       images: [
         {
@@ -536,7 +536,7 @@ export default [
     fields: {
       name: "familia básico",
       slug: "family-basic",
-      type: "family",
+      type: "familia",
       price: 350,
       size: 550,
       capacity: 4,
@@ -544,15 +544,15 @@ export default [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "Street art, edison bulb, gluten-free tofu.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
+        "Almofadas macias e roupas de cama delicadas.",
+        "Toalhas de banho grandes e macias",
+        "Toalete de tamanho normal e com pH equilibrado",
+        "Refrescos de cortesia",
+        "Segurança / proteção adequadas",
         "Internet",
-        "Comfortable beds"
+        "Camas confortáveis"
       ],
       images: [
         {
@@ -593,7 +593,7 @@ export default [
     fields: {
       name: "familia padrão",
       slug: "family-standard",
-      type: "family",
+      type: "familia",
       price: 400,
       size: 600,
       capacity: 5,
@@ -601,15 +601,15 @@ export default [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "Street art, edison bulb, gluten-free tofu.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
+        "Almofadas macias e roupas de cama delicadas.",
+        "Toalhas de banho grandes e macias",
+        "Toalete de tamanho normal e com pH equilibrado",
+        "Refrescos de cortesia",
+        "Segurança / proteção adequadas",
         "Internet",
-        "Comfortable beds"
+        "Camas confortáveis"
       ],
       images: [
         {
@@ -650,7 +650,7 @@ export default [
     fields: {
       name: "familia deluxe",
       slug: "family-deluxe",
-      type: "family",
+      type: "familia",
       price: 500,
       size: 700,
       capacity: 6,
@@ -658,15 +658,15 @@ export default [
       breakfast: true,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "Street art, edison bulb, gluten-free tofu.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
+        "Almofadas macias e roupas de cama delicadas.",
+        "Toalhas de banho grandes e macias",
+        "Toalete de tamanho normal e com pH equilibrado",
+        "Refrescos de cortesia",
+        "Segurança / proteção adequadas",
         "Internet",
-        "Comfortable beds"
+        "Camas confortáveis"
       ],
       images: [
         {
@@ -707,7 +707,7 @@ export default [
     fields: {
       name: "presidencial",
       slug: "presidential-room",
-      type: "presidential",
+      type: "presidencial",
       price: 600,
       size: 1000,
       capacity: 10,
@@ -715,15 +715,15 @@ export default [
       breakfast: true,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      "Street art, edison bulb, gluten-free tofu.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
+        "Almofadas macias e roupas de cama delicadas.",
+        "Toalhas de banho grandes e macias",
+        "Toalete de tamanho normal e com pH equilibrado",
+        "Refrescos de cortesia",
+        "Segurança / proteção adequadas",
         "Internet",
-        "Comfortable beds"
+        "Camas confortáveis"
       ],
       images: [
         {
