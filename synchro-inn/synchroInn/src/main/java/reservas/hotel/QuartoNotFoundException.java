@@ -1,5 +1,6 @@
 package reservas.hotel;
 
+@SuppressWarnings("serial")
 public class QuartoNotFoundException extends RuntimeException {
 
     QuartoNotFoundException(Long id_quarto){

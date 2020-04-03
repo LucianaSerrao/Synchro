@@ -26,7 +26,7 @@ public class Cliente {
 		return id;
 	}
 	
-	public Long getNome() {
+	public String getNome() {
 		return nome;
 	}
 	

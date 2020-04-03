@@ -1,8 +1,10 @@
 package reservas.hotel;
 
 import org.springframework.data.jpa.repository.Query;
-import org.springframework.hateoas.Resource;
-import org.springframework.hateoas.Resources;
+import org.springframework.hateoas.EntityModel;
+import org.springframework.hateoas.Link;
+import org.springframework.hateoas.RepresentationModel;
+import org.springframework.hateoas.CollectionModel;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,51 +13,74 @@ import java.net.URISyntaxException;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
-import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
-
-
 @RestController
-public class ClientController {
-	private final ClienteRepository cRepository;
-	private final ClienteResourceAssembler cAssembler;
-	private final QuartoRepository qRepository;
-	
-	ClienteController(ClienteRepository cRepository, ClienteResourceASsembler cAssembler, QuartoRepository qRepository){
-		this.cRepository = cRepository;
-		this.cAssembler = cAssembler;
-		this.qRepository = qRepository;
+public class ClientController
+{
+    private final ClienteRepository cRepository;
+    private final ClienteResourceAssembler cAssembler;
+    private final QuartoRepository qRepository;
+
+    ClientController(ClienteRepository cRepository, ClienteResourceAssembler cAssembler,QuartoRepository qRepository)
+    {
+        this.cRepository = cRepository;
+        this.cAssembler = cAssembler;
+        this.qRepository = qRepository;
+    }
+
+    @GetMapping(value = "/clientes",produces = "application/json; charset=UTF-8")
+    public CollectionModel<EntityModel<Cliente>> AllClientes()
+    {
+    	
+        List<EntityModel<Cliente>> clientes = cRepository.findAll().stream()
+                .map(cliente -> new EntityModel<>(cliente,linkTo(methodOn(ClientController.class).one(cliente.getId())).withSelfRel(),
+                        linkTo(methodOn(ClientController.class).AllClientes()).withRel("Clientes"))).collect(Collectors.toList());
+
+        return new CollectionModel<>(clientes,linkTo(methodOn(ClientController.class).AllClientes()).withSelfRel());
+    }
+
+    private Link linkTo(CollectionModel<EntityModel<Cliente>> allClientes) {
+		// TODO Auto-generated method stub
+		return null;
 	}
-	
-	@GetMapping(value = "/clientes", produces = "application/json; charset=UTF-8")
-	public Resources<Resource<Cliente>> AllClientes(){
-		List<Resource<Cliente>> clientes = cRepository.findAll().stream()
-				.map(cliente -> new Resource<>(cliente,linkTo(methodOn(ClienteController.class).one(cliente.getId())).withSelfResl(),
-						linkTo(methodOn(ClienteController.class).AllClientes()).withRel("Clientes"))).collect(Collectors.toList());
-		return new Resources<>(clientes,linkTo(methodOn(ClienteController.class).AllClientes()).withSelfRel());
+
+	private Object linkTo(EntityModel<Cliente> entityModel) {
+		// TODO Auto-generated method stub
+		return null;
 	}
-	
+
+	private ClientController methodOn(Class<ClientController> class1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 	@GetMapping(value = "/clientes/{id_cliente}",produces = "application/json; charset=UTF-8")
-	public Resource<Cliente> one(@PathVariable Long id_cliente){
-		Cliente cliente = cRepository.findById(id_cliente).orElseThrow(()-> new ClienteBotFoundException(id_cliente));
-		
-		return cAssembler.toResource(cliente);
-	}
-	
-	@GetMapping(value = "quartos/{id_quarto}/clientes", produces = "application/json; charset=UTF-8")
-	public Resources<Resource<Cliente>> allClienteByVoo(@PathVariable Long id_quarto){
-		List<Cliente> clientes = cRepository.findClientesByQuartoId(id_quarto);
-		List<Resource<Cliente>> cResource;
-		
-		cResource = clientes.parallelStream().flatMap(cAssembler::toResource).collect(Collector.toList());
-		
-		return new Resources<>(cResource, linkTo(methodOn(ClienteController.class).allClienteByVoo(id_quarto)).withSelfRel());
-	}
-	
-	@GetMapping(value = "/quartos/{id_quarto}/clientes/{id_cliente}", produces = "application/json; charset=UTF-8")
-	public Resource<Cliente> ClienteByIdAndVoo_Id(@PathVariable("id_cliente") Long id_cliente,@PathVariable("id_quarto") Long id_quarto){
-		Cliente cliente = cRepository.findClienteByIdAndQuartoId(id_cliente, id_quarto);
-		
-		return cAssembler.toResource(cliente);
-	}
+    public EntityModel<Cliente> one(@PathVariable Long id_cliente)
+    {
+
+        Cliente cliente = cRepository.findById(id_cliente).orElseThrow(()-> new ClienteNotFoundException(id_cliente));
+
+        return cAssembler.toModel(cliente);
+    }
+
+    @GetMapping(value = "quartos/{id_quarto}/clientes",produces = "application/json; charset=UTF-8")
+    public CollectionModel<EntityModel<Cliente>> allClienteByVoo(@PathVariable Long id_quarto)
+    {
+        List<Cliente> clientes = cRepository.findClienteByQuartoId(id_quarto);
+        List<EntityModel<Cliente>> cResource;
+
+        cResource = clientes.stream().map(cAssembler::toModel).collect(Collectors.toList());
+
+        return new CollectionModel<>(cResource, linkTo(methodOn(ClientController.class).allClienteByVoo(id_quarto)).withSelfRel());
+
+    }
+
+    @GetMapping(value = "/quartos/{id_quarto}/clientes/{id_cleinte}",produces = "application/json; charset=UTF-8")
+    public EntityModel<Cliente> ClienteByIdAndVoo_Id(@PathVariable("id_cleinte") Long id_cleinte,@PathVariable("id_quarto") Long id_quarto)
+    {
+        Cliente cliente = cRepository.findClienteByIdAndQuartoID(id_cleinte, id_quarto);
+
+        return cAssembler.toModel(cliente);
+    }
+
+
 }
