@@ -2,6 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
+import Menu from './Components/Menu';
+import MenuContent from './Components/MenuContent';
+import MenuSocial from './Components/MenuSocial';
 
 class App extends React.Component {
   render(){
@@ -10,9 +13,11 @@ class App extends React.Component {
         <body>
 
 <div className="super_container">
-      <Header>
-
-      </Header>
+      <Header></Header>
+	  <Menu>
+		  <MenuContent></MenuContent>
+		  <MenuSocial></MenuSocial>
+	  </Menu>
 
 
 	-- Menu --
