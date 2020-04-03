@@ -46,8 +46,8 @@ class App extends Component{
                       <div className="row">
                         <div className="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
                           <div className="slider-text-inner text-center">
-                            <h2>2 Days Tour</h2>
-                            <h1>Amazing Maldives Tour</h1>
+                            <h2>2 Dias Tour</h2>
+                            <h1>Visite as Ilhas Maldivas</h1>
                           </div>
                         </div>
                       </div>
@@ -59,8 +59,8 @@ class App extends Component{
                       <div className="row">
                         <div className="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
                           <div className="slider-text-inner text-center">
-                            <h2>10 Days Cruises</h2>
-                            <h1>From Greece to Spain</h1>
+                            <h2>Pacote 10 dias!</h2>
+                            <h1>De Grecia a Espanha</h1>
                           </div>
                         </div>
                       </div>
@@ -72,8 +72,8 @@ class App extends Component{
                       <div className="row">
                         <div className="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
                           <div className="slider-text-inner text-center">
-                            <h2>Explore our most tavel agency</h2>
-                            <h1>Our Travel Agency</h1>
+                            <h2>Explore nossa agencia de viagens</h2>
+                            <h1>Agencia</h1>
                           </div>
                         </div>
                       </div>
@@ -85,8 +85,8 @@ class App extends Component{
                       <div className="row">
                         <div className="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
                           <div className="slider-text-inner text-center">
-                            <h2>Experience the</h2>
-                            <h1>Best Trip Ever</h1>
+                            <h2>Experimente a</h2>
+                            <h1>Melhor viagem de todos os tempos!</h1>
                           </div>
                         </div>
                       </div>
@@ -158,8 +158,8 @@ class App extends Component{
                                 <div className="row">
                                 <div className="col-md-2">
                                   <div className="booknow">
-                                    <h2>Book Now</h2>
-                                    <span>Best Price Online</span>
+                                    <h2>Agende agora!</h2>
+                                    <span>Melhor preço online!</span>
                                   </div>
                                 </div>
                                 <div className="col-md-3">
@@ -258,7 +258,7 @@ class App extends Component{
                                 </div>
                                 <div className="col-md-3">
                                   <div className="form-group">
-                                    <label for="guests">Categories</label>
+                                    <label for="guests">Categorias</label>
                                     <div className="form-field">
                                       <i className="icon icon-arrow-down3"></i>
                                       <select name="category" id="category" className="form-control">
@@ -291,8 +291,8 @@ class App extends Component{
                       <span className="icon">
                         <i className="flaticon-around"></i>
                       </span>
-                      <h3>Amazing Travel</h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies</p>
+                      <h3>Viagens Incríveis</h3>
+                      <p>A dona aranha subiu pela parede, veio a chuva forte e a derrubou. Já passou a chuva o sol ja vai surgindo e a dona aranha continua a subir.</p>
                     </div>
                   </div>
                   <div className="col-md-3 animate-box text-center">
@@ -300,8 +300,8 @@ class App extends Component{
                       <span className="icon">
                         <i className="flaticon-boat"></i>
                       </span>
-                      <h3>Our Cruises</h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies</p>
+                      <h3>Cruzeiros</h3>
+                      <p>A dona aranha subiu pela parede, veio a chuva forte e a derrubou. Já passou a chuva o sol ja vai surgindo e a dona aranha continua a subir.</p>
                     </div>
                   </div>
                   <div className="col-md-3 animate-box text-center">
@@ -309,8 +309,8 @@ class App extends Component{
                       <span className="icon">
                         <i className="flaticon-car"></i>
                       </span>
-                      <h3>Book Your Trip</h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies</p>
+                      <h3>Agende sua viagem!</h3>
+                      <p>A dona aranha subiu pela parede, veio a chuva forte e a derrubou. Já passou a chuva o sol ja vai surgindo e a dona aranha continua a subir.</p>
                     </div>
                   </div>
                   <div className="col-md-3 animate-box text-center">
@@ -318,8 +318,8 @@ class App extends Component{
                       <span className="icon">
                         <i className="flaticon-postcard"></i>
                       </span>
-                      <h3>Nice Support</h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies</p>
+                      <h3>Suporte</h3>
+                      <p>A dona aranha subiu pela parede, veio a chuva forte e a derrubou. Já passou a chuva o sol ja vai surgindo e a dona aranha continua a subir.</p>
                     </div>
                   </div>
                 </div>
@@ -330,8 +330,8 @@ class App extends Component{
               <div className="container">
                 <div className="row">
                   <div className="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
-                    <h2>Popular Destination</h2>
-                    <p>We love to tell our successful far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <h2>Destinos em alta!</h2>
+                    <p>A dona aranha subiu pela parede, veio a chuva forte e a derrubou. Já passou a chuva o sol ja vai surgindo e a dona aranha continua a subir.</p>
                   </div>
                 </div>
               </div>
@@ -341,9 +341,9 @@ class App extends Component{
                   </div>
                   <span className="desc">
                     <p className="star"><span><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i></span> 545 Reviews</p>
-                    <h2>Athens, Greece</h2>
-                    <span className="city">Athens, Greece</span>
-                    <span className="price">$450</span>
+                    <h2>Atena Grecia</h2>
+                    <span className="city">Atena, Grecia</span>
+                    <span className="price">R$450</span>
                   </span>
                 </a>
                 <a href="#" className="tour-entry animate-box">
@@ -351,9 +351,9 @@ class App extends Component{
                   </div>
                   <span className="desc">
                     <p className="star"><span><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i></span> 545 Reviews</p>
-                    <h2>Family Tour in Thailand</h2>
-                    <span className="city">Athens, Greece</span>
-                    <span className="price">$450</span>
+                    <h2>Tailandia</h2>
+                    <span className="city">Atena, Grecia</span>
+                    <span className="price">R$450</span>
                   </span>
                 </a>
                 <a href="#" className="tour-entry animate-box">
@@ -361,9 +361,9 @@ class App extends Component{
                   </div>
                   <span className="desc">
                     <p className="star"><span><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i></span> 545 Reviews</p>
-                    <h2>Family Tour in Philippines</h2>
-                    <span className="city">Lipa, Philippines</span>
-                    <span className="price">$450</span>
+                    <h2>Filipinas</h2>
+                    <span className="city">Lipa, Filipinas</span>
+                    <span className="price">R$450</span>
                   </span>
                 </a>
                 <a href="#" className="tour-entry animate-box">
@@ -371,9 +371,9 @@ class App extends Component{
                   </div>
                   <span className="desc">
                     <p className="star"><span><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i></span> 545 Reviews</p>
-                    <h2>Family Tour in Greece</h2>
-                    <span className="city">Athens, Greece</span>
-                    <span className="price">$450</span>
+                    <h2>Grecia</h2>
+                    <span className="city">Atena, Grecia</span>
+                    <span className="price">R$450</span>
                   </span>
                 </a>
                 <a href="#" className="tour-entry animate-box">
@@ -381,9 +381,9 @@ class App extends Component{
                   </div>
                   <span className="desc">
                     <p className="star"><span><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i></span> 545 Reviews</p>
-                    <h2>Family Tour in Greece</h2>
-                    <span className="city">Athens, Greece</span>
-                    <span className="price">$450</span>
+                    <h2>Grecia</h2>
+                    <span className="city">Atena, Grecia</span>
+                    <span className="price">R$450</span>
                   </span>
                 </a>
                 <a href="#" className="tour-entry animate-box">
@@ -391,9 +391,9 @@ class App extends Component{
                   </div>
                   <span className="desc">
                     <p className="star"><span><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i></span> 545 Reviews</p>
-                    <h2>Family Tour in Greece</h2>
-                    <span className="city">Athens, Greece</span>
-                    <span className="price">$450</span>
+                    <h2>Grecia</h2>
+                    <span className="city">Atena, Grecia</span>
+                    <span className="price">R$450</span>
                   </span>
                 </a>
                 <a href="#" className="tour-entry animate-box">
@@ -401,9 +401,9 @@ class App extends Component{
                   </div>
                   <span className="desc">
                     <p className="star"><span><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i></span> 545 Reviews</p>
-                    <h2>Family Tour in Greece</h2>
-                    <span className="city">Athens, Greece</span>
-                    <span className="price">$450</span>
+                    <h2>Grecia</h2>
+                    <span className="city">Atena, Grecia</span>
+                    <span className="price">R$450</span>
                   </span>
                 </a>
                 <a href="#" className="tour-entry animate-box">
@@ -411,64 +411,16 @@ class App extends Component{
                   </div>
                   <span className="desc">
                     <p className="star"><span><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i></span> 545 Reviews</p>
-                    <h2>Family Tour in Greece</h2>
-                    <span className="city">Athens, Greece</span>
-                    <span className="price">$450</span>
+                    <h2>Grecia</h2>
+                    <span className="city">Atena, Grecia</span>
+                    <span className="price">R$450</span>
                   </span>
                 </a>
               </div>
             </div>
         
         
-            <div id="colorlib-blog">
-              <div className="container">
-                <div className="row">
-                  <div className="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
-                    <h2>Recent Blog</h2>
-                    <p>We love to tell our successful far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  </div>
-                </div>
-                <div className="blog-flex">
-                  <div className="f-entry-img" style={{backgroundImage: "url('images/blog-3.jpg')"}}>
-                  </div>
-                  <div className="blog-entry aside-stretch-right">
-                    <div className="row">
-                      <div className="col-md-12 animate-box">
-                        <a href="blog.html" className="blog-post">
-                          <span className="img" style={{backgroundImage: "url('images/blog-1.jpg')"}}></span>
-                          <div className="desc">
-                            <span className="date">Feb 22, 2018</span>
-                            <h3>A Definitive Guide to the Best Dining</h3>
-                            <span className="cat">Activities</span>
-                          </div>
-                        </a>
-                      </div>
-                      <div className="col-md-12 animate-box">
-                        <a href="blog.html" className="blog-post">
-                          <span className="img" style={{backgroundImage: "url('images/blog-2.jpg')"}}></span>
-                          <div className="desc">
-                            <span className="date">Feb 22, 2018</span>
-                            <h3>How These 5 People Found The Path to Their Dream Trip</h3>
-                            <span className="cat">Activities</span>
-                          </div>
-                        </a>
-                      </div>
-                      <div className="col-md-12 animate-box">
-                        <a href="blog.html" className="blog-post">
-                          <span className="img" style={{backgroundImage: "url('images/blog-4.jpg')"}}></span>
-                          <div className="desc">
-                            <span className="date">Feb 22, 2018</span>
-                            <h3>Our Secret Island Boat Tour Is just for You</h3>
-                            <span className="cat">Activities</span>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-        
+            
             <div id="colorlib-intro" className="intro-img" style={{backgroundImage: "url('images/cover-img-1.jpg')"}} data-stellar-background-ratio="0.5">
               <div className="overlay"></div>
               <div className="container">
@@ -487,9 +439,9 @@ class App extends Component{
                           </div>
                         </div>
                         <div className="text-rights">
-                          <h3 className="title">Just hurry up limited offer!</h3>
-                          <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                          <p><a href="#" className="btn btn-primary">Book Now</a> <a href="#" className="btn btn-primary btn-outline">Read more</a></p>
+                          <h3 className="title">Oferta limitada!</h3>
+                          <p>Oferta promoção ofertaaaa dinheiro menos mais promoção pra voce aproveite!.</p>
+                          <p><a href="#" className="btn btn-primary">Agende Agora</a> <a href="#" className="btn btn-primary btn-outline">Leia mais</a></p>
                         </div>
                       </div>
                     </div>
@@ -510,8 +462,8 @@ class App extends Component{
               <div className="container">
                 <div className="row">
                   <div className="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
-                    <h2>Recommended Hotels</h2>
-                    <p>We love to tell our successful far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <h2>Hoteis</h2>
+                    <p>hoteis pra voce dormir gostosinho descansar bora dormir gente.</p>
                   </div>
                 </div>
                 <div className="row">
@@ -575,228 +527,9 @@ class App extends Component{
               </div>
             </div>
         
-            <div id="colorlib-testimony" className="colorlib-light-grey">
-              <div className="container">
-                <div className="row">
-                  <div className="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
-                    <h2>Our Satisfied Guests says</h2>
-                    <p>We love to tell our successful far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-md-8 col-md-offset-2 animate-box">						
-                    <div className="owl-carousel2">
-                      <div className="item">
-                        <div className="testimony text-center">
-                          <span className="img-user" style={{backgroundImage: "url('images/person1.jpg')"}}></span>
-                          <span className="user">Alysha Myers</span>
-                          <small>Miami Florida, USA</small>
-                          <blockquote>
-                            <p>" A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                          </blockquote>
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="testimony text-center">
-                          <span className="img-user" style={{backgroundImage: "url('images/person2.jpg')"}}></span>
-                          <span className="user">James Fisher</span>
-                          <small>New York, USA</small>
-                          <blockquote>
-                            <p>One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                          </blockquote>
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="testimony text-center">
-                          <span className="img-user" style={{backgroundImage: "url('images/person3.jpg')"}}></span>
-                          <span className="user">Jacob Webb</span>
-                          <small>Athens, Greece</small>
-                          <blockquote>
-                            <p>Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
-                          </blockquote>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>	
-              </div>
-            </div>
+            
         
-            <div className="colorlib-tour">
-              <div className="container">
-                <div className="row">
-                  <div className="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
-                    <h2>Most Popular Travel Countries</h2>
-                    <p>We love to tell our successful far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-md-12">
-                    <div className="f-tour">
-                      <div className="row row-pb-md">
-                        <div className="col-md-6">
-                          <div className="row">
-                            <div className="col-md-6 animate-box">
-                              <a  href="tours.html" className="f-tour-img" style={{backgroundImage: "url('images/tour-1.jpg')"}}>
-                                <div className="desc">
-                                  <h3>Rome - 5 Days</h3>
-                                  <p className="price"><span>$120</span> <small>/ person</small></p>
-                                </div>
-                              </a>
-                            </div>
-                            <div className="col-md-6 animate-box">
-                              <a  href="tours.html" className="f-tour-img" style={{backgroundImage: "url('images/tour-2.jpg')"}}>
-                                <div className="desc">
-                                  <h3>Rome - 5 Days</h3>
-                                  <p className="price"><span>$120</span> <small>/ person</small></p>
-                                </div>
-                              </a>
-                            </div>
-                            <div className="col-md-6 animate-box">
-                              <a  href="tours.html" className="f-tour-img" style={{backgroundImage: "url('images/tour-3.jpg')"}}>
-                                <div className="desc">
-                                  <h3>Rome - 5 Days</h3>
-                                  <p className="price"><span>$120</span> <small>/ person</small></p>
-                                </div>
-                              </a>
-                            </div>
-                            <div className="col-md-6 animate-box">
-                              <a  href="tours.html" className="f-tour-img" style={{backgroundImage: "url('images/tour-4.jpg')"}}>
-                                <div className="desc">
-                                  <h3>Rome - 5 Days</h3>
-                                  <p className="price"><span>$120</span> <small>/ person</small></p>
-                                </div>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-md-6 animate-box">
-                          <div className="desc">
-                            <div className="row">
-                              <div className="col-md-12">
-                                <h3>Italy, Europe</h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                              </div>
-                              <div className="col-md-12">
-                                <h4>Best Tours City</h4>
-                                <div className="row">
-                                  <div className="col-md-4 col-sm-4 col-xs-4">
-                                    <ul>
-                                      <li><a href="#">Rome</a></li>
-                                      <li><a href="#">Milan</a></li>
-                                      <li><a href="#">Genoa</a></li>
-                                      <li><a href="#">Verona</a></li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-4 col-sm-4 col-xs-4">
-                                    <ul>
-                                      <li><a href="#">Venice</a></li>
-                                      <li><a href="#">Bologna</a></li>
-                                      <li><a href="#">Trieste</a></li>
-                                      <li><a href="#">Florence</a></li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-4 col-sm-4 col-xs-4">
-                                    <ul>
-                                      <li><a href="#">Palermo</a></li>
-                                      <li><a href="#">Siena</a></li>
-                                      <li><a href="#">San Marino</a></li>
-                                      <li><a href="#">Naples</a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                <p><a href="tours.html" className="btn btn-primary">View All Places</a></p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-        
-                    <div className="f-tour">
-                      <div className="row">
-                        <div className="col-md-6 col-md-push-6">
-                          <div className="row">
-                            <div className="col-md-6 animate-box">
-                              <a  href="tours.html" className="f-tour-img" style={{backgroundImage: "url('images/tour-5.jpg')"}}>
-                                <div className="desc">
-                                  <h3>Rome - 5 Days</h3>
-                                  <p className="price"><span>$120</span> <small>/ person</small></p>
-                                </div>
-                              </a>
-                            </div>
-                            <div className="col-md-6 animate-box">
-                              <a  href="tours.html" className="f-tour-img" style={{backgroundImage: "url('images/tour-6.jpg')"}}>
-                                <div className="desc">
-                                  <h3>Rome - 5 Days</h3>
-                                  <p className="price"><span>$120</span> <small>/ person</small></p>
-                                </div>
-                              </a>
-                            </div>
-                            <div className="col-md-6 animate-box">
-                              <a  href="tours.html" className="f-tour-img" style={{backgroundImage: "url('images/tour-7.jpg')"}}>
-                                <div className="desc">
-                                  <h3>Rome - 5 Days</h3>
-                                  <p className="price"><span>$120</span> <small>/ person</small></p>
-                                </div>
-                              </a>
-                            </div>
-                            <div className="col-md-6 animate-box">
-                              <a  href="tours.html" className="f-tour-img" style={{backgroundImage: "url('images/tour-8.jpg')"}}>
-                                <div className="desc">
-                                  <h3>Rome - 5 Days</h3>
-                                  <p className="price"><span>$120</span> <small>/ person</small></p>
-                                </div>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-md-6 animate-box col-md-pull-6 text-right">
-                          <div className="desc">
-                            <div className="row">
-                              <div className="col-md-12">
-                                <h3>Athens, Greece</h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                              </div>
-                              <div className="col-md-12">
-                                <h4>Best Tours City</h4>
-                                <div className="row">
-                                  <div className="col-md-4 col-sm-4 col-xs-4">
-                                    <ul>
-                                      <li><a href="#">Rome</a></li>
-                                      <li><a href="#">Milan</a></li>
-                                      <li><a href="#">Genoa</a></li>
-                                      <li><a href="#">Verona</a></li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-4 col-sm-4 col-xs-4">
-                                    <ul>
-                                      <li><a href="#">Venice</a></li>
-                                      <li><a href="#">Bologna</a></li>
-                                      <li><a href="#">Trieste</a></li>
-                                      <li><a href="#">Florence</a></li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-4 col-sm-4 col-xs-4">
-                                    <ul>
-                                      <li><a href="#">Palermo</a></li>
-                                      <li><a href="#">Siena</a></li>
-                                      <li><a href="#">San Marino</a></li>
-                                      <li><a href="#">Naples</a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                <p><a href="tours.html" className="btn btn-primary">View All Places</a></p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
         
           
             <div id="colorlib-subscribe" style={{backgroundImage: "url('images/img_bg_2.jpg')"}} data-stellar-background-ratio="0.5">
@@ -873,8 +606,8 @@ class App extends Component{
                   <div className="col-md-3 col-md-push-1">
                     <h4>Contact Information</h4>
                     <ul className="colorlib-footer-links">
-                      <li>291 South 21th Street, Suite 721 New York NY 10016</li>
-                      <li><a href="tel://1234567920">+ 1235 2355 98</a></li>
+                      <li>CI Rua dos Escoteiros</li>
+                      <li><a href="tel://1234567920">+ 123456789</a></li>
                       <li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
                       <li><a href="#">yoursite.com</a></li>
                     </ul>
@@ -882,12 +615,7 @@ class App extends Component{
                 </div>
                 <div className="row">
                   <div className="col-md-12 text-center">
-                    <p>
-                       Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        Copyright &copy; All rights reserved | This template is made with <i className="icon-heart2" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-        
-                      <span className="block">Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a> , <a href="http://pexels.com/" target="_blank">Pexels.com</a></span>
-                    </p>
+                    
                   </div>
                 </div>
               </div>
