@@ -25,15 +25,10 @@ public class CompanhiaController {
         }
 
         @GetMapping(value = "/companhias",produces = "application/json; charset=UTF-8")
-        public CollectionModel<EntityModel<Companhia>> AllCompanhias(){
-
-            List<EntityModel<Companhia>> companhias = Comp_repository.findAll().stream()
-                .map(companhia -> new EntityModel<>(companhia,
-                linkTo(methodOn(CompanhiaController.class).one(companhia.getId())).withSelfRel(),
-                linkTo(methodOn(CompanhiaController.class).AllCompanhias()).withRel("Companhias"))).collect(Collectors.toList());
-
-            return new CollectionModel<>(companhias,linkTo(methodOn(CompanhiaController.class).AllCompanhias()).withSelfRel());
-
+        public List<Companhia> allFlightCompanies(){
+		List<Companhia> companhias = Comp_repository.findAll();	
+	return companhias;
+	
         }
 
 

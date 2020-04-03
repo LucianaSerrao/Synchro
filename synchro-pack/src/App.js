@@ -16,25 +16,21 @@ class App extends Component{
                 <div className="container-fluid">
                   <div className="row">
                     <div className="col-xs-2" id="colorlib-logo">
-                      <a href="index.html">Tour</a>                      
+                      <a href="index.html">SYNCHRO</a>                      
                     </div>
                     <div className="col-xs-10 text-right menu-1">
                       <ul>
                         <li className="active"><a href="index.html">Home</a></li>
                         <li className="has-dropdown">
-                          <a href="tours.html">Tours</a>
+                          <a href="tours.html">Vôos</a>
                           <ul className="dropdown">
-                            <li><a href="#">Destination</a></li>
-                            <li><a href="#">Cruises</a></li>
-                            <li><a href="#">Hotels</a></li>
+                            <li><a href="#">Destinos</a></li>
+                            <li><a href="#">Promoções</a></li>
                             <li><a href="#">Booking</a></li>
                           </ul>
                         </li>
-                        <li><a href="hotels.html">Hotels</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="hotels.html">Hotel</a></li>
+                        <li><a href="contact.html">Contato</a></li>
                       </ul>
                     </div>
                   </div>
@@ -104,12 +100,7 @@ class App extends Component{
                 <div classNameName="row">
                   <div classNameName="search-wrap">
                     <div classNameName="container">
-                      <ul classNameName="nav nav-tabs">
-                        <li classNameName="active"><a data-toggle="tab" href="#flight"><i classNameName="flaticon-plane"></i> Flight</a></li>
-                        <li><a data-toggle="tab" href="#hotel"><i classNameName="flaticon-resort"></i> Hotel</a></li>
-                        <li><a data-toggle="tab" href="#car"><i classNameName="flaticon-car"></i> Car Rent</a></li>
-                        <li><a data-toggle="tab" href="#cruises"><i classNameName="flaticon-boat"></i> Cruises</a></li>
-                      </ul>
+                    
                     </div>
                     <div classNameName="tab-content">
                       <div id="flight" classNameName="tab-pane fade in active">
@@ -117,7 +108,7 @@ class App extends Component{
                                 <div classNameName="row">
                                 <div classNameName="col-md-3">
                                   <div className="form-group">
-                                    <label for="date">Where:</label>
+                                    <label for="date">Destino:</label>
                                     <div className="form-field">
                                       <input type="text" id="location" className="form-control" placeholder="Search Location"/>
                                     </div>
